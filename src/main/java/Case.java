@@ -6,7 +6,7 @@ public class Case {
 
     static Convert convert = new Convert();
     public static void main(String[] args) {
-        List<String> names = Arrays.asList("amogh","tejas","nikhil","akshay");
+        List<String> names = Arrays.asList("zero two","hinata","nami","robin","boa","bonney","vivi");
         convert.toUpper(names);
     }
 }
