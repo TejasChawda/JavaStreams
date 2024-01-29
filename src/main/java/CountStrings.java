@@ -1,13 +1,12 @@
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
 
 public class CountStrings {
     static Ops ops = new Ops();
     public static void main(String[] args) {
         List<String> words = Arrays.asList("Nami","Boa","Yoyorouzu","Yamato","Tsunade","Hinata","Hoshino Ai");
-        String first = "Y";
+        String first = "N";
         ops.countStringsStartingWith(first, words);
         ops.printNamesStartingWith(first, words);
     }
