@@ -1,3 +1,5 @@
+package Basic;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,6 +29,6 @@ class Computations{
                 .mapToDouble(Integer::doubleValue)
                 .average()
                 .orElse(0.0);
-        System.out.println("the average of the list provided is : "+result);
+        System.out.println("the Basic.average of the list provided is : "+result);
     }
 }
